@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+}
+#game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+    height: 300px; /* Adjust the height as needed */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    outline: none;
+}
+
+.box:hover {
+    background-color: #ddd;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3498db;
+    text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.8);
+    letter-spacing: 2px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0e96eb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+}
+#reset:hover {
+    background-color: #0c5fd4;
+}
+#reset:active {
+    transform: scale(0.94);
+}
+.X{
+    color: red;
+    font-size: 3rem;
+
+
+}
+.O{
+    color: blue;
+    font-size: 3rem;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    text-align: center;
+    color: #3498db; /* Blue text color */
+    font-size: 18px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 13px;
+    height: 24px;
+}
+
+#resultText {
+    margin: 0;
+    font-weight: bold;
+    display: none;
+}
+
+
+
